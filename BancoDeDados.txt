@@ -263,7 +263,6 @@ CREATE (TheWaterboy)-[:REVIEWED {score:6.6}]->(Critico01)
 CREATE (TheHotChick)-[:REVIEWED {score:8.1}]->(Critico04)
 
 
---------------------------------------------------------------------------------
 # CONSULTAS NO NEO4J
 
 MATCH (adamSandler:Person {name: 'Adam Sandler'})-[:ACTED_IN]->(movie:Movie) 
